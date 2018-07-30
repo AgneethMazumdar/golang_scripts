@@ -1,5 +1,7 @@
 package main
 
+// Scrape the titles and corresponding URLs from the front page of Hacker News
+
 import (
 	"fmt"
 	"log"
