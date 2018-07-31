@@ -37,4 +37,15 @@ func main() {
 		fmt.Println(j, s.Text())
 		j++
 	})
+	
+	// Another neat script. This one does the same thing (for page 1) except it'll visit the links on the front page
+	// in descending order from top to bottom and retrieve the h1 header from the link it visits
+	
+	// bow.Dom().Find("a.storylink").Each(func(_ int, s *goquery.Selection) {
+	// 	fmt.Println(i, s.Text())
+	// 	i++
+	// 	bow.Click("a.storylink")
+	// 	fmt.Println(bow.Dom().Find("h1").Text())
+	// 	bow.Back()
+	// })
 }
