@@ -43,6 +43,7 @@ func main() {
 	
 	// bow.Dom().Find("a.storylink").Each(func(_ int, s *goquery.Selection) {
 	// 	fmt.Println(i, s.Text())
+	//	fmt.Println(s.Attr("href")) // gets you the url
 	// 	i++
 	// 	bow.Click("a.storylink")
 	// 	fmt.Println(bow.Dom().Find("h1").Text())
